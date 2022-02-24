@@ -1,0 +1,77 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0px;
+}
+.header {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  border-bottom: 1px gray solid;
+}
+
+.header .menus span {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.circularbtn {
+  border: 1 px red solid;
+}
+.banner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: center;
+  margin-left: 10px;
+}
+.banner .notify {
+  font-family: "Ubuntu", Georgia, "Times New Roman", Times, serif;
+  margin-top: 20vh;
+
+  font-size: 40px;
+  font-weight: 600;
+}
+.banner .slogan {
+  color: #f17216;
+  margin-top: 10px;
+}
+
+.banner .text {
+  display: flex;
+  flex-direction: column;
+}
+.banner .buttons {
+  padding: 20px;
+}
+.banner .red {
+  background: #fb3f6c;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  margin-top: 20px;
+  margin: 10px;
+}
+.banner .youtube {
+  padding: 10px;
+  color: balck;
+  border-radius: 20px;
+  border: none;
+  margin-top: 20px;
+  margin: 10px;
+}
+
+.sponsors {
+  background-color: #acacac45;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
+}
